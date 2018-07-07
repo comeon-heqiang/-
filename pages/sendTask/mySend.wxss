@@ -1,0 +1,61 @@
+.send-header {
+    background: #32c1ed;
+    padding: 100rpx 60rpx;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 36rpx;
+}
+
+.send-header view {
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+.send {
+    position: relative;
+    top: -35px;
+}
+
+.send-item {
+    display: flex;
+    align-items: center;
+    padding: 40rpx;
+    margin: 0 40rpx 20rpx;
+    background: #fff;
+}
+
+.send-item .main-img {
+    width: 120rpx;
+    height: 100rpx;
+    margin-right: 40rpx;
+}
+
+.send-item>view{
+    flex: 2;
+}
+
+.send-item .title {
+    color: #414344;
+    font-size: 32rpx;
+}
+
+.send-item .con {
+    font-size:28rpx;
+    color:#898b8d;
+    margin:8rpx 0 15rpx;
+    
+}
+.send-item .date{
+    font-size: 24rpx;
+    color: #898b8d;
+}
+.send-item navigator{
+    color: #32c1ed;
+    font-size: 28rpx;    
+}
+.send-item navigator image{
+    width: 30rpx;
+    height: 30rpx;   
+    vertical-align: middle;
+}

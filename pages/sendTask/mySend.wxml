@@ -1,0 +1,37 @@
+<view class="send-header">
+    我的积分：
+    <view>201</view>
+</view>
+<view class="send">
+    <view class="send-item">
+        <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
+        <view>
+            <view class="title">祁玲红茶世界杯情怀</view>
+            <view class="con">提交者：小情绪</view>
+            <view class="date">时间：2018/7/7 16:47:25</view>
+        </view>
+         <navigator url="/pages/sendTask/mySendDetail">去审核<image src="/assets/images/icon-right-arrow.png" />
+        </navigator>
+    </view>
+    <view class="send-item">
+        <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
+        <view>
+            <view class="title">祁玲红茶世界杯情怀</view>
+            <view class="con">提交者：小情绪</view>
+            <view class="date">时间：2018/7/7 16:47:25</view>
+        </view>
+       <navigator url="/pages/sendTask/mySendDetail">去审核<image src="/assets/images/icon-right-arrow.png" />
+        </navigator>
+    </view>
+    <view class="send-item">
+        <image src="/assets/images/icon-pengyouquan.png" class="main-img" />
+        <view>
+            <view class="title">祁玲红茶世界杯情怀</view>
+            <view class="con">提交者：小情绪</view>
+            <view class="date">时间：2018/7/7 16:47:25</view>
+        </view>
+        <navigator url="/pages/sendTask/mySendDetail">去审核<image src="/assets/images/icon-right-arrow.png" />
+        </navigator>
+    </view>
+
+</view>

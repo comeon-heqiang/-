@@ -1,32 +1,23 @@
 <view class="top-banner">
     <image src="/assets/images/banner-task.jpg" />
 </view>
-<view class="nav-classify">
-    <view>
+<swiper class="nav-classify" indicator-dots="{{false}}" autoplay="{{false}}" interval="{{5000}}" duration="{{500}}" display-multiple-items="{{5}}">
+    <block wx:for="{{nav}}">
+        <swiper-item>
+            <image src="{{item.imgUrl}}" />
+            {{item.text}}
+        </swiper-item>
+    </block>
+</swiper>
+<!-- <scroll-view scroll-x="{{true}}" class="nav-classify">
+    <view wx:for="{{nav}}">
         <navigator>
-            <image src="/assets/images/icon-paihang.png" />
-            排行
+            <image src="{{item.imgUrl}}" />
+            {{item.text}}
         </navigator>
     </view>
-    <view>
-        <navigator>
-            <image src="/assets/images/icon-tongzhi.png" />
-            通知
-        </navigator>
-    </view>
-    <view>
-        <navigator>
-            <image src="/assets/images/icon-news.png" />
-            新闻资讯
-        </navigator>
-    </view>
-    <view>
-        <navigator>
-            <image src="/assets/images/icon-help.png" />
-            帮助
-        </navigator>
-    </view>
-</view>
+
+</scroll-view> -->
 <!-- 兑换商品推荐 -->
 <view class="recommend">
     <view class="title">

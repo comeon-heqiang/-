@@ -47,6 +47,28 @@ Page({
                 integral:1,
                 num:20
             }
+        ],
+        nav:[
+            {
+                imgUrl:"/assets/images/icon-paihang.png",
+                text:"排行"
+            },
+            {
+                imgUrl:"/assets/images/icon-tongzhi2.png",
+                text:"通知"
+            },
+            {
+                imgUrl:"/assets/images/icon-news.png",
+                text:"新闻资讯"
+            },
+            {
+                imgUrl:"/assets/images/icon-help2.png",
+                text:"帮助"
+            },
+            {
+                imgUrl:"/assets/images/icon-paihang.png",
+                text:"排行"
+            },
         ]
     },
     onLoad: function(options) {

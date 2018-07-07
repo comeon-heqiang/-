@@ -1,4 +1,4 @@
-@import "../../assets/css/public.wxss";
+
 .top-banner {
 }
 .top-banner image {
@@ -6,16 +6,27 @@
   display: block;
 }
 /* 导航分类 */
-.nav-classify {
-  display: flex;
-  background: #fff;
+.nav-classify {    
+  background: #fff;  
+  padding: 40rpx 0;
+  height: 140rpx;
+  font-size: 28rpx;
+  color: #666;
+  text-align: center;
+}
+.nav-classify image{
+  width: 70rpx;
+  height: 70rpx;
+  display: block;
+  margin: 0 auto 20rpx;
 }
 .nav-classify view {
-  flex: 1;
+  display: inline-block;
   text-align: center;
   color: #666;
   padding: 40rpx 0;
   font-size: 28rpx;
+  width: 25%;  
 }
 .nav-classify view image {
   width: 70rpx;
